@@ -141,19 +141,4 @@
   // 监听窗口大小变化，重新设置字体大小
   window.addEventListener('resize', setFontSize);
 
-  // 统计上报代码
-
-  //
-  $(window).scroll(function () {
-    var stop = $(window).scrollTop();
-    if (stop > 500) {
-      $(".footer").show();
-    } else {
-      $(".footer").hide();
-    }
-  });
-</script>
-
-<script id="LA_COLLECT" src="https://sdk.51.la/js-sdk-pro.min.js"></script>
-<script>LA.init({id:"Kp3qXvYJHWrfjSxt",ck:"Kp3qXvYJHWrfjSxt"})</script>
 </html>
